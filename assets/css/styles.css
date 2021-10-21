@@ -76,11 +76,25 @@ ul.social a:hover {
   color: #fff;
 }
 
+#img-banner {
+  position: absolute;
+  width: 10vw;
+  pointer-events: none;
+  transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
+  opacity: 0;
+  transform: scale(0);
+  mix-blend-mode: darken;
+}
+
 .special-text {
   font-size: 11em !important;
   -webkit-text-stroke: 3px;
   -webkit-text-stroke-color: #143ca8;
   color: transparent;
+}
+.special-text:hover #img-banner {
+  transform: scale(1);
+  opacity: 1;
 }
 @media (max-width: 500px) {
   .special-text {

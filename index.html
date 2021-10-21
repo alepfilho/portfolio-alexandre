@@ -31,7 +31,8 @@
               </ul>
             </div>
             <div class="col-md-6">
-                <h1 class="special-text">DESIGN | DEV | UX/UI | SEO | MKT</h1>
+                <h1 class="special-text">DESIGN | DEV | UX/UI | SEO | MKT 
+                    <img id="img-banner" src="assets/img/alexandre-poltronieri-filho.jpeg" alt=""></h1>
             </div>
           </div>
         </div>
@@ -226,7 +227,12 @@
             left: e.pageX - 130
         })
     })
-
+    $("#banner .special-text").mousemove(function(e) {
+        $('#img-banner').fadeIn().offset({
+            top: e.pageY - 120,
+            left: e.pageX - 100
+        })
+    })
     </script>
   </body>
 </html>
