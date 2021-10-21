@@ -173,4 +173,19 @@ ul.social a:hover {
   color: #fff;
   font-weight: 900;
   margin-top: 20px;
+}
+
+footer {
+  background-color: #143ca8;
+}
+footer a {
+  color: #fff !important;
+  font-size: 22px !important;
+}
+footer a:hover {
+  background-color: #fff !important;
+  color: #143ca8 !important;
+}
+footer h4 {
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
